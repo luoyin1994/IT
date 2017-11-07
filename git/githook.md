@@ -15,5 +15,6 @@
     # git服务器主机地址yourhosturl
     git clone git@yourhosturl:git/storename.git
 ```
+
 * 进行开发......
 * 开发机向该裸仓库进行“push”操作。触发“pre-receive”

@@ -14,7 +14,7 @@
     # user_keys/xxx/*_rsa.pub 存放的为每一个加在本linux用户下authorized_keys中的公钥
     cat user_keys/*/* > authorized_keys  # 批量写入保存的*_rsa.pub 
 ```
-* 禁用shell登录
+* 禁用shell登录（[git-shell为仅限Git-SSH访问的受限登录shell](https://git-scm.com/docs/git-shell)）
 ```git
     # /etc/passwd文件中
     # git:x:1001:1001:,,,:/home/git:/bin/bash

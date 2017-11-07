@@ -1,0 +1,5 @@
+{
+  "scripts": {
+    "push": "git push mygit && git push github"
+  }
+}

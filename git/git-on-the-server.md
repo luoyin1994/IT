@@ -1,7 +1,7 @@
 # git 服务器
 
 ## 搭建 git 服务 
-* 实现免密登录
+### 实现免密登录
 ```bash
     # git用户下
     cd .ssh
@@ -9,12 +9,12 @@
     mkdir .ssh && chmod 700 .ssh
     touch .ssh/authorized_keys && chmod 600 .ssh/authorized_keys
 ```
-* 批量导入公钥
+### 批量导入公钥
 ```bash
     # user_keys/xxx/*_rsa.pub 存放的为每一个加在本linux用户下authorized_keys中的公钥
     cat user_keys/*/* > authorized_keys  # 批量写入保存的*_rsa.pub 
 ```
-* 禁用shell登录（[git-shell为仅限Git-SSH访问的受限登录shell](https://git-scm.com/docs/git-shell)）
+### 禁用shell登录（[git-shell为仅限Git-SSH访问的受限登录shell](https://git-scm.com/docs/git-shell)）
 ```git
     # /etc/passwd文件中
     # git:x:1001:1001:,,,:/home/git:/bin/bash

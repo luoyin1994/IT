@@ -1,3 +1,4 @@
+# git hook
 * 在git服务器创建git裸仓库。假设创建于git用户的“~/git/”目录下。
 ```git
     # 仓库名称 storename.git
@@ -18,3 +19,7 @@
 
 * 进行开发......
 * 开发机向该裸仓库进行“push”操作。触发“pre-receive”
+
+
+## 参考文档
+* [不会写shell的程序员照样是好前端——用Node.JS实现git hooks](https://segmentfault.com/a/1190000004918996)

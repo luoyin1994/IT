@@ -9,7 +9,7 @@
     curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.6/install.sh| bash
 ```
 ```
-    # 添加以下到~/bashrc
+    # 添加以下到~/.bashrc
     export NVM_DIR="$HOME/.nvm"
     [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" # This loads nvm
 ```

@@ -1,5 +1,15 @@
 # npm镜像设置
 
+## 查看镜像
+```
+    npm get registry
+```
+
+## 设置原版镜像
+```
+    npm set registry https://registry.npmjs.org
+```
+
 ## 设置淘宝镜像
 ```
     npm set registry https://registry.npm.taobao.org # 注册模块镜像
@@ -14,3 +24,6 @@
     
     npm cache clean # 清空缓存
 ```
+
+## 参考文档
+* [国内优秀npm镜像推荐及使用](http://blog.imchen.cc/blog/npm-source-of-china/)

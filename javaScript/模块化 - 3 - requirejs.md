@@ -95,7 +95,7 @@ require.config({
 
 
 
-## 参考
+## 参考文档
 - [Javascript模块化编程（三）：require.js的用法](http://www.ruanyifeng.com/blog/2012/11/require_js.html)
 
 ## Demo
